@@ -1,0 +1,27 @@
+{
+  "name": "oblique-child",
+  "version": "1.0.0",
+  "description": "Soprannome gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floorford/Soprannome.git"
+  },
+  "author": "Flo Orford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floorford/Soprannome/issues"
+  },
+  "homepage": "https://github.com/floorford/Soprannome#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}
