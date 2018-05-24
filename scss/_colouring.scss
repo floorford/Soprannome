@@ -1,0 +1,14 @@
+$rose-gold: #E3A7A6;
+$navy: #495C69;
+
+.page-header, .svg-container.page-header-svg {
+  fill: $rose-gold;
+}
+
+.page-header {
+  background-color: $rose-gold;
+}
+
+.page-header .page-title {
+  color: $navy;
+}
