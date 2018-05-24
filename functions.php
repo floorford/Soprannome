@@ -42,3 +42,19 @@ function create_custom_post_type_show(){
 
 	register_post_type('shows', $args); // used as internal identifier
 }
+
+/**
+ * Footer credits
+ */
+function obliquechild_footer_credits() {
+	echo '<a href="' . esc_url( __( 'http://192.168.33.110/privacy-policy/', 'oblique' ) ) . '" rel="nofollow">';
+	/* translators: Privacy Policy */
+		printf( __( 'Privacy Policy', 'oblique' ), 'WordPress' );
+	echo '</a>';
+	echo '<span class="sep"> | </span>';
+	/* translators: Contact Us */
+  echo '<a href="' . esc_url( __( 'http://192.168.33.110/contact-us/', 'oblique' ) ) . '" rel="nofollow">';
+		printf( __( 'Contact Us', 'oblique' ), 'WordPress' );
+	echo '</a>';
+}
+add_action( 'obliquechild_footer', 'obliquechild_footer_credits' );

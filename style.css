@@ -1,3 +1,9 @@
+/*
+ Theme Name:   Oblique Child
+ Author:       Flo Orford
+ Description:  Based on the oblique theme, child theme designed for Soprannome 2018
+ Template:     oblique
+*/
 .page-header, .svg-container.page-header-svg {
   fill: #E3A7A6; }
 
@@ -6,3 +12,15 @@
 
 .page-header .page-title {
   color: #495C69; }
+
+.single-post-svg {
+  fill: #FBF4F4 !important; }
+
+.hentry {
+  background-color: #FBF4F4 !important; }
+
+.overlay {
+  opacity: 0; }
+
+.social-navigation li:last-child a::before {
+  content: '\f262'; }
