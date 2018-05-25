@@ -114,7 +114,10 @@
       */
       get_template_part( 'template-parts/shows', 'content', get_post_format() ); ?>
     <?php endwhile; // End the loop ?>
-  
+    <div class="svg-container svg-block page-header-svg">
+    <?php do_action( 'oblique_archive_title_bottom_svg' ); ?>
+    </div>
+
 
  	  <?php wp_reset_query();
  	} else {
