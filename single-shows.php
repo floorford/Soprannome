@@ -29,7 +29,6 @@ get_header(); ?>
 		?>
 
 		</main><!-- #main -->
-		<?php do_action( 'oblique_single_sidebar' ); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
