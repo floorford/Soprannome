@@ -62,3 +62,6 @@ hr.style14 {
 
 .overlay {
   display: none; }
+
+.svg {
+  z-index: -9; }
