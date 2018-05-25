@@ -8,7 +8,4 @@
 @import '_colouring.scss';
 @import '_ctabutton.scss';
 @import '_divider.scss';
-
-.social-navigation li:last-child a::before {
-	content: '\f2b6';
-} // THIS NEEDS FIXING
+@import '_header.scss';
