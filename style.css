@@ -64,13 +64,35 @@ hr.style14 {
   display: none; }
 
 .svg {
-  z-index: -9; }
+  z-index: -9 !important; }
+
+.top-bar {
+  z-index: 10; }
 
 .header-title {
   color: #E3A7A6;
   font-size: 133%;
   float: left;
-  z-index: 10;
-  top: 8%;
+  z-index: 11;
+  left: 123px;
+  top: 34px;
   position: absolute;
   text-shadow: 4px 4px 6px rgba(89, 65, 65, 0.41); }
+  @media screen and (max-width: 782px) {
+    .header-title {
+      font-size: 119%;
+      top: 36px;
+      left: 119px; } }
+  @media screen and (max-width: 768px) {
+    .header-title {
+      font-size: 119%;
+      top: 36px;
+      left: 118px; } }
+  @media screen and (max-width: 767px) {
+    .header-title {
+      font-size: 119%;
+      top: 81px;
+      left: 69px; } }
+  @media screen and (max-width: 641px) {
+    .header-title {
+      display: none; } }
