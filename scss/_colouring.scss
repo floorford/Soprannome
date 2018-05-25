@@ -1,6 +1,6 @@
 $rose-gold: #E3A7A6;
 $navy: #495C69;
-$content-color: #FBF4F4;
+$content-color: #F8E9E9;
 
 .page-header, .svg-container.page-header-svg {
   fill: $rose-gold;
@@ -20,8 +20,13 @@ $content-color: #FBF4F4;
 
 .hentry {
   background-color: $content-color !important;
+  padding: 30px 60px 0px 60px;
 }
 
 .overlay {
 opacity: 0;
+}
+
+img {
+  box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.75);
 }

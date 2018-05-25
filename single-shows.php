@@ -12,12 +12,15 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="<?php echo esc_attr( $single_classes ); ?>" role="main">
 
+		<?php do_action( 'oblique_archive_title_top_svg' ); ?>
 		<?php
 		while ( have_posts() ) :
 			the_post();
-?>
 
-			<?php get_template_part( 'content', 'singleshow' ); ?>
+			get_template_part( 'template-parts/shows', 'content', get_post_format() );?>
+			<div class="svg-container svg-block page-header-svg">
+			<?php do_action( 'oblique_archive_title_bottom_svg' ); ?>
+			</div>
 
 			<?php do_action( 'oblique_single_post_navigation' ); ?>
 

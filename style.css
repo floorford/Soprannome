@@ -14,13 +14,34 @@
   color: #495C69; }
 
 .single-post-svg {
-  fill: #FBF4F4 !important; }
+  fill: #F8E9E9 !important; }
 
 .hentry {
-  background-color: #FBF4F4 !important; }
+  background-color: #F8E9E9 !important;
+  padding: 30px 60px 0px 60px; }
 
 .overlay {
   opacity: 0; }
+
+img {
+  box-shadow: 10px 10px 28px -3px rgba(0, 0, 0, 0.75); }
+
+.page-header #CTAbutton {
+  color: #E3A7A6;
+  background-color: #495C69;
+  border-radius: 10px;
+  border: 1px solid #495C69;
+  display: inline-block;
+  padding: 1%;
+  box-shadow: 10px 10px 28px -3px rgba(0, 0, 0, 0.75); }
+
+hr.style14 {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
 
 .social-navigation li:last-child a::before {
   content: '\f2b6'; }
