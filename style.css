@@ -65,3 +65,12 @@ hr.style14 {
 
 .svg {
   z-index: -9; }
+
+.header-title {
+  color: #E3A7A6;
+  font-size: 133%;
+  float: left;
+  z-index: 10;
+  top: 8%;
+  position: absolute;
+  text-shadow: 4px 4px 6px rgba(89, 65, 65, 0.41); }
