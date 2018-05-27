@@ -47,13 +47,13 @@ function create_custom_post_type_show(){
  * Footer credits
  */
 function obliquechild_footer_credits() {
-	echo '<a href="' . esc_url( __( 'http://www.soprannome/privacy-policy/', 'oblique' ) ) . '" rel="nofollow">';
+	echo '<a href="' . esc_url( __( 'http://www.soprannome.com/privacy-policy/', 'oblique' ) ) . '" rel="nofollow">';
 	/* translators: Privacy Policy */
 		printf( __( 'Privacy Policy', 'oblique' ), 'WordPress' );
 	echo '</a>';
 	echo '<span class="sep"> | </span>';
 	/* translators: Contact Us */
-  echo '<a href="' . esc_url( __( 'http://www.soprannome/contact-us/', 'oblique' ) ) . '" rel="nofollow">';
+  echo '<a href="' . esc_url( __( 'http://www.soprannome.com/contact-us/', 'oblique' ) ) . '" rel="nofollow">';
 		printf( __( 'Contact Us', 'oblique' ), 'WordPress' );
 	echo '</a>';
 }
