@@ -16,7 +16,7 @@
     <?php do_action( 'oblique_archive_title_top_svg' ); ?>
 		<header class="page-header">
 		<h1 class="page-title">Upcoming Shows</h1>
-    <a id="CTAbutton" href="http://192.168.33.110/contact-us/">Contact Us</a>
+    <a id="CTAbutton" href="http://www.soprannome/contact-us/">Contact Us</a>
 		</header><!-- .page-header -->
     <div class="svg-container svg-block page-header-svg">
     <?php do_action( 'oblique_archive_title_bottom_svg' ); ?>
