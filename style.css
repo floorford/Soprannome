@@ -74,25 +74,24 @@ hr.style14 {
   font-size: 133%;
   float: left;
   z-index: 11;
-  left: 123px;
-  top: 34px;
+  left: 121px;
+  top: 3px;
   position: absolute;
   text-shadow: 4px 4px 6px rgba(89, 65, 65, 0.41); }
   @media screen and (max-width: 782px) {
     .header-title {
       font-size: 119%;
-      top: 36px;
-      left: 119px; } }
-  @media screen and (max-width: 768px) {
-    .header-title {
-      font-size: 119%;
-      top: 36px;
-      left: 118px; } }
+      top: 3px;
+      left: 110px; } }
   @media screen and (max-width: 767px) {
     .header-title {
       font-size: 119%;
-      top: 81px;
-      left: 69px; } }
+      top: 4px;
+      left: 63px; } }
   @media screen and (max-width: 641px) {
+    .header-title {
+      top: 30px;
+      left: 22px; } }
+  @media screen and (max-width: 608px) {
     .header-title {
       display: none; } }
